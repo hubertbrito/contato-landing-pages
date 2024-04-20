@@ -3,6 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }  
-body{
-    background-color: azure;
+ /* Estilos CSS para o layout */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+header{
+
+    text-align: center;
+    padding: 27px 21px;
+}
+main{
+    margin: 0 auto;
+    max-width: 70%;
+}
+.painel {
+    border: 1px solid #ccc;
+    padding: 21px 15px;
+    margin: 27px 12px;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    main{
+        max-width: 100%;
+    }
+    .painel p a{
+        font-size: 21px;
+    }
 }
