@@ -19,13 +19,17 @@
       width: 100%;
     }
     .linkpara-pagcurriculo{
-      background-color: powderblue;
-      color: #041f31;
+      background-color: rgb(185, 247, 255);
+      color: #175076;
       padding: 6px 18px;
       text-decoration: none;
       font-weight: bold;
       font-size: 12px;
       border-radius: 12px;
+      margin-right: 27px;
+    }
+    .linkpara-pagcurriculo:hover{
+      background-color: rgb(165, 218, 226);
     }
   
     /* div da logo topo */
@@ -392,9 +396,10 @@
   
     }
     .link-goowin a{
-     background-color: #041f31;
+     background-color: #052235;
      padding: 6px;
      border-radius: 8px;
+     color: #2ba5fd;
   
     }
 

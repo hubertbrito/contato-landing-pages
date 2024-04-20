@@ -18,13 +18,17 @@ body {
     width: 100%;
   }
   .linkpara-pagminisite{
-    background-color: powderblue;
-    color: #041f31;
+    background-color: #bfffec;
+    color: #1a557d;
     padding: 6px 18px;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
     border-radius: 12px;
+    margin-right: 27px;
+  }
+  .linkpara-pagminisite:hover{
+    background-color: rgb(160, 206, 212);
   }
 
   /* div da logo topo */
@@ -350,9 +354,10 @@ body {
 
   }
   .link-goowin a{
-   background-color: #041f31;
+   background-color: #04253b;
    padding: 6px;
    border-radius: 8px;
+   color: #35aeff;
 
   }
 
